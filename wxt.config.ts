@@ -6,7 +6,9 @@ export default defineConfig({
         permissions: [
             'storage',
             'tabs',
-            'declarativeNetRequest'
+            'declarativeNetRequest',
+            'https://*/*',
+            "\u003Call_urls\u003E"
         ]
     }
 });
